@@ -1,0 +1,47 @@
+{
+  "version": "0.1.0",
+  "description": "Claude Code settings for Copilot placeholder repository",
+
+  "permissions": {
+    "allow": [
+      "bash:python",
+      "bash:npm",
+      "bash:node",
+      "bash:git",
+      "bash:find",
+      "bash:grep",
+      "bash:ls",
+      "bash:cat",
+      "read",
+      "edit",
+      "write"
+    ],
+    "deny": []
+  },
+
+  "environment": {
+    "NODE_ENV": "development",
+    "PYTHONUNBUFFERED": "1"
+  },
+
+  "hooks": {},
+
+  "vscode": {
+    "settings": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "extensions": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "ms-python.python",
+      "ms-python.vscode-pylance"
+    ]
+  },
+
+  "development": {
+    "description": "Flexible setup for future project development"
+  },
+
+  "notes": "This repository is a placeholder. Configure this file further once the project type and structure are determined."
+}
